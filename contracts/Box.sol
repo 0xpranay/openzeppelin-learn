@@ -1,15 +1,18 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-contract Box
+
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract Box is Ownable
 {
     uint private value;
     event ValueChanged(address indexed changer, uint newValue);
-    function setValue(uint newValue) external {
+    function store(uint newValue) public onlyOwner{
         value = newValue;
         emit ValueChanged(msg.sender, value);
     }
 
-    function getValue() external view returns (uint){
+    function retrieve() external view returns (uint){
         return value;
     }
 }

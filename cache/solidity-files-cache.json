@@ -2,9 +2,46 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/pranayreddy/Desktop/learn/contracts/Box.sol": {
-      "lastModificationDate": 1642580899706,
-      "contentHash": "899820b1e40a650f15b3ccf6e8078678",
+      "lastModificationDate": 1642583278591,
+      "contentHash": "e14dcc25b7e85dec5e7e654148e21f03",
       "sourceName": "contracts/Box.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./access-control/Auth.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Box"
+      ]
+    },
+    "/Users/pranayreddy/Desktop/learn/contracts/access-control/Auth.sol": {
+      "lastModificationDate": 1642581682923,
+      "contentHash": "08b8f728c40c8eaa794f1eccaba2ee04",
+      "sourceName": "contracts/access-control/Auth.sol",
       "solcConfig": {
         "version": "0.8.9",
         "settings": {
@@ -33,7 +70,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "Box"
+        "Auth"
       ]
     }
   }
