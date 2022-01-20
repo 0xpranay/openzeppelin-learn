@@ -1,0 +1,13 @@
+.exit
+exit()
+exit
+ethers
+config
+(await box.retrieve()).toString();
+(await box.retrieve()).toString());
+(await box.retrieve()).toString()
+await box.retrieve().toString();
+await box.retrieve();
+await box.store(42)
+const box = await Box.attach('0x5fbdb2315678afecb367f032d93f642f64180aa3');
+const Box = await ethers.getContractFactory('Box');
