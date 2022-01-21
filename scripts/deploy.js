@@ -1,5 +1,5 @@
 const { ethers } = require("hardhat");
-
+console.clear();
 async function main() {
   const Box = await ethers.getContractFactory("Box");
   console.log("Deploying Box...");

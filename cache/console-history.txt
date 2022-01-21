@@ -1,4 +1,29 @@
 .exit
+await tx
+const tx = await boxInstance.store(42);
+const boxInstance = await boxContract.attach("0x5fbdb2315678afecb367f032d93f642f64180aa3");
+await boxContract.attach("0x5fbdb2315678afecb367f032d93f642f64180aa3");
+const boxContract = await ethers.getContractFactory("Box");
+.exit
+exit()
+exit
+ethers
+config
+(await box.retrieve()).toString();
+(await box.retrieve()).toString());
+(await box.retrieve()).toString()
+await box.retrieve().toString();
+await box.retrieve();
+await box.store(42)
+const box = await Box.attach('0x5fbdb2315678afecb367f032d93f642f64180aa3');
+const Box = await ethers.getContractFactory('Box');oxInstance = await boxContract.attach('0x5fbdb2315678afecb367f032d93f642f64180aa3');
+const boxContract = await ethers.getContractFactory('Box');
+await tx
+const tx = await boxInstance.store(42);
+const boxInstance = await boxContract.attach("0x5fbdb2315678afecb367f032d93f642f64180aa3");
+await boxContract.attach("0x5fbdb2315678afecb367f032d93f642f64180aa3");
+const boxContract = await ethers.getContractFactory("Box");
+.exit
 exit()
 exit
 ethers
