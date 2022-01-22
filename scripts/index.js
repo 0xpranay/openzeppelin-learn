@@ -4,7 +4,7 @@ async function main() {
   // Our code will go here
   const address = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
   const Box = await ethers.getContractFactory("Box");
-  const box = await Box.attach(address);
+  const box = Box.attach(address);
   const value = await box.retrieve();
   console.log("Value is ", value.toString());
   await box.store(123123);

@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Box
-{
+contract BoxV2{
     uint private value;
     mapping(address => uint256) public balances;
     event ValueChanged(address indexed changer, uint newValue);
@@ -27,5 +26,8 @@ contract Box
         require(balances[msg.sender] >= amount, "Balance not enough");
         balances[recipient] += amount;
     }
-}
 
+    function upgradeRetrieve() external view returns (uint){
+        return value;
+    }
+}

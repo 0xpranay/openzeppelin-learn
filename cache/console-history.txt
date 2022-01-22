@@ -1,3 +1,31 @@
+boxInstance
+const resul5t = await instance.upgradeRetrieve();
+const result = await instance.upgradeRetrieve();
+const instance = boxupg.attach('0x2E2Ed0Cfd3AD2f1d34481277b3204d807Ca2F8c2');
+boxupg.attach('0x2E2Ed0Cfd3AD2f1d34481277b3204d807Ca2F8c2');
+const boxupg = await ethers.getContractFactory('BoxV2');
+const boxnew = await ethers.getContractFactory('BoxV2');
+const boxnew = await ethers.getContractFactory('0x2E2Ed0Cfd3AD2f1d34481277b3204d807Ca2F8c2');
+await box.upgradeRetrieve();
+const box = await boxcontract.attach('0x2E2Ed0Cfd3AD2f1d34481277b3204d807Ca2F8c2');
+boxContract = await ethers.getContractFactory('BoxV2');
+const resul13t = await boxInstance.upgradeRetrieve()
+const resul1t = await boxInstance.upgradeRetrieve()
+const result = await boxInstance.upgradeRetrieve()
+const resul1t = await boxInstance.upgradeRetrieve()
+const result = await boxInstance.upgradeRetrieve()
+result
+const result = await boxInstance.retrieve()
+boxInstance.retrieve()
+boxInstance
+boxInstance = await boxcontract.attach('0x2E2Ed0Cfd3AD2f1d34481277b3204d807Ca2F8c2');
+const boxcontract = await ethers.getContractFactory('Box');
+await boxcontract = await ethers.getContractFactory('Box');
+.exit
+.EXIT
+accounts = await ethers.provider.listAccounts();
+accounts
+const accounts = await ethers.provider.listAccounts();
 .exit
 await tx
 const tx = await boxInstance.store(42);

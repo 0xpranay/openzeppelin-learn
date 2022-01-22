@@ -1,0 +1,412 @@
+{
+  "version": "3.2",
+  "log": [
+    {
+      "BoxV2": {
+        "src": "contracts/BoxV2.sol:4",
+        "version": {
+          "withMetadata": "8917acf15ce9e8e6f60196c7e6fb8caf962dc365fe8df568b58f2047df3658bf",
+          "withoutMetadata": "2ab58071a0150b61d74d91ddfc47ff62781922d06c27ecd7ff0c20fa722b7ce8",
+          "linkedWithoutMetadata": "2ab58071a0150b61d74d91ddfc47ff62781922d06c27ecd7ff0c20fa722b7ce8"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "_initialiser(uint256)",
+          "store(uint256)",
+          "retrieve()",
+          "willRevert()",
+          "transfer(address,uint256)",
+          "upgradeRetrieve()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "BoxV2",
+              "label": "value",
+              "type": "t_uint256",
+              "src": "contracts/BoxV2.sol:5"
+            },
+            {
+              "contract": "BoxV2",
+              "label": "balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "contracts/BoxV2.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)"
+            },
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Box": {
+        "src": "contracts/Box.sol:4",
+        "version": {
+          "withMetadata": "d6beb8e56a6cf150e5e3a117ade7f4f8e2563950a68ffe182a787d5bc5e54923",
+          "withoutMetadata": "d5aa0e22eb3d836df3dc1e777f435cec30a1837f34d1e417b6bfeab27872f260",
+          "linkedWithoutMetadata": "d5aa0e22eb3d836df3dc1e777f435cec30a1837f34d1e417b6bfeab27872f260"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "_initialiser(uint256)",
+          "store(uint256)",
+          "retrieve()",
+          "willRevert()",
+          "transfer(address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Box",
+              "label": "value",
+              "type": "t_uint256",
+              "src": "contracts/Box.sol:6"
+            },
+            {
+              "contract": "Box",
+              "label": "balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "contracts/Box.sol:7"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)"
+            },
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Box": {
+        "src": "contracts/Box.sol:4",
+        "version": {
+          "withMetadata": "4bd974ce7d89764c89d514f7d52a0f6b7924f726dd7e908cd8312613da0c9e6f",
+          "withoutMetadata": "09d79c3887a5a707a459dd48114c146f8e6d136aa5b797406a557d96e2e8f6a0",
+          "linkedWithoutMetadata": "09d79c3887a5a707a459dd48114c146f8e6d136aa5b797406a557d96e2e8f6a0"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(uint256)",
+          "store(uint256)",
+          "retrieve()",
+          "willRevert()",
+          "transfer(address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Box",
+            "src": "contracts/Box.sol:9"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Box",
+              "label": "value",
+              "type": "t_uint256",
+              "src": "contracts/Box.sol:6"
+            },
+            {
+              "contract": "Box",
+              "label": "balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "contracts/Box.sol:7"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)"
+            },
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Ownable": {
+        "src": "@openzeppelin/contracts/access/Ownable.sol:20",
+        "inherit": [
+          "Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "owner()",
+          "renounceOwnership()",
+          "transferOwnership(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Ownable",
+            "src": "@openzeppelin/contracts/access/Ownable.sol:28"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Ownable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts/access/Ownable.sol:21"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "Context": {
+        "src": "@openzeppelin/contracts/utils/Context.sol:16",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "Box": {
+        "src": "contracts/Box.sol:5",
+        "version": {
+          "withMetadata": "bd1132af5ffdf84ef4ad9e97af9cdffa1cc787dd4457db5c6895e3a373478153",
+          "withoutMetadata": "d4c13681e5203f1853330bb62f2246b900c7760e275bced7a638d0b18f5981ed",
+          "linkedWithoutMetadata": "d4c13681e5203f1853330bb62f2246b900c7760e275bced7a638d0b18f5981ed"
+        },
+        "inherit": [
+          "Ownable",
+          "Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "(uint256)",
+          "store(uint256)",
+          "retrieve()",
+          "willRevert()",
+          "transfer(address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Box",
+            "src": "contracts/Box.sol:10"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Box",
+              "label": "value",
+              "type": "t_uint256",
+              "src": "contracts/Box.sol:7"
+            },
+            {
+              "contract": "Box",
+              "label": "balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "contracts/Box.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)"
+            },
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Ownable": {
+        "src": "@openzeppelin/contracts/access/Ownable.sol:20",
+        "inherit": [
+          "Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "owner()",
+          "renounceOwnership()",
+          "transferOwnership(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Ownable",
+            "src": "@openzeppelin/contracts/access/Ownable.sol:28"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Ownable",
+              "label": "_owner",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts/access/Ownable.sol:21"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "Context": {
+        "src": "@openzeppelin/contracts/utils/Context.sol:16",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [],
+          "types": {},
+          "layoutVersion": "1.1"
+        }
+      },
+      "Box": {
+        "src": "contracts/Box.sol:5",
+        "version": {
+          "withMetadata": "9029dc39cb1479e534652e8b265a63de06cbf900073af04ff511f16f120a5961",
+          "withoutMetadata": "b7d0efb14e3125f4aeb91f22eec40bbe4a5e1fd167bab1f5e03e621293d03254",
+          "linkedWithoutMetadata": "b7d0efb14e3125f4aeb91f22eec40bbe4a5e1fd167bab1f5e03e621293d03254"
+        },
+        "inherit": [
+          "Ownable",
+          "Context"
+        ],
+        "libraries": [],
+        "methods": [
+          "(uint256)",
+          "store(uint256)",
+          "retrieve()",
+          "willRevert()",
+          "transfer(address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Box",
+            "src": "contracts/Box.sol:10"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Box",
+              "label": "value",
+              "type": "t_uint256",
+              "src": "contracts/Box.sol:7"
+            },
+            {
+              "contract": "Box",
+              "label": "balances",
+              "type": "t_mapping(t_address,t_uint256)",
+              "src": "contracts/Box.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)"
+            },
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "Auth": {
+        "src": "contracts/access-control/Auth.sol:3",
+        "version": {
+          "withMetadata": "f720a68c7e55fd384135eb412025ff7ddd808ff5d8b04e7dcd775cefbc8492d5",
+          "withoutMetadata": "94e12ddae7cf22bbecf107cdad8d6da3cf10cddbebc6136b39aaa977cccd01a2",
+          "linkedWithoutMetadata": "94e12ddae7cf22bbecf107cdad8d6da3cf10cddbebc6136b39aaa977cccd01a2"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(address)",
+          "changeAdmin(address)",
+          "isAdministrator(address)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Auth",
+            "src": "contracts/access-control/Auth.sol:7"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Auth",
+              "label": "_admin",
+              "type": "t_address",
+              "src": "contracts/access-control/Auth.sol:5"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    }
+  ]
+}

@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/pranayreddy/Desktop/learn/contracts/Box.sol": {
-      "lastModificationDate": 1642765823339,
-      "contentHash": "7c1ac7d2f8404bbb8b66e7bd8d16a92e",
+      "lastModificationDate": 1642839288961,
+      "contentHash": "106b00c3e62e40c79a7eb0f20d818ec1",
       "sourceName": "contracts/Box.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -28,9 +28,7 @@
           }
         }
       },
-      "imports": [
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
         "^0.8.0"
       ],
@@ -143,6 +141,41 @@
       ],
       "artifacts": [
         "Context"
+      ]
+    },
+    "/Users/pranayreddy/Desktop/learn/contracts/BoxV2.sol": {
+      "lastModificationDate": 1642840481249,
+      "contentHash": "ed9a08d09c4f57e2178313a3c54961a0",
+      "sourceName": "contracts/BoxV2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BoxV2"
       ]
     }
   }
